@@ -1,5 +1,5 @@
 CFLAGS+=-g -O2 -Wall -Wno-strict-aliasing -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
-LIBS+=-lzmq -lssl -lcrypto -lev -lz -luuid
+LIBS+=-lzmq -lssl -lcrypto -lev -lz -luuid -lpthread
 
 OBJ=src/main.o
 OBJ+=src/utils.o
